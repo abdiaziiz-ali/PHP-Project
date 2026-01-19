@@ -13,6 +13,27 @@ Daily Expense Tracker is a lightweight PHP/MySQL web application that allows use
 * Simple Bootstrap UI and client-side date controls
 * Database schema included (SQL dump)
 
+##SQL FILES 
+*tbleUer 
+| Column       | Description           |
+| ------------ | --------------------- |
+| id           | Primary key           |
+| fullname     | User full name        |
+| email        | User email            |
+| mobilenumber | Phone                 |
+| password     | Encrypted password    |
+| created_at   | Account creation date |
+
+*tbleexpense
+| Column       | Description                  |
+| ------------ | ---------------------------- |
+| id           | Primary key                  |
+| user_id      | Linked to users              |
+| amount       | Expense amount               |
+| expense_date | Date of expense              |
+
+
+
 ## Tech Stack
 
 * PHP (server-side)
@@ -71,5 +92,15 @@ Daily Expense Tracker is a lightweight PHP/MySQL web application that allows use
 * Add new expense categories or reports as needed.
 
 ---
+## Group Info
+*GROUP G
+*Class CA222
+*Abdisalam Ahmed Ali
+*Abdirisak Hassan Elmi
+*MohamedAmin Abdirisak
+*AbdiAziiz Ali jim'ale
+*Abdibasid Mohamed Ali
+
+
 
 Daily Expense Tracker Project README
